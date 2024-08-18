@@ -2,8 +2,9 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 function Navbar() {
+
   return (
-    <nav style={{ display: 'flex', justifyContent: 'space-between', padding: '10px' }}>
+    <nav style={{ display: 'flex', justifyContent: 'space-between', padding: '10px' ,backgroundColor:'red'}}>
       <h1>My Company</h1>
       <ul style={{ display: 'flex', listStyle: 'none' }}>
         <li><Link to="/">Home</Link></li>
