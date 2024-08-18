@@ -10,7 +10,7 @@ function MainContent() {
             
             <main style={{backgroundColor:'red'}}>
                <input type="text" onChange={(e)=>{setName(e.target.value)}}/>
-               <p>{name}</p>
+               <p>"I love to visit New York, Paris, and Tokyo."</p>
                <button onClick={increaseCount}>you clicked me {count} times</button>
             </main>
        
