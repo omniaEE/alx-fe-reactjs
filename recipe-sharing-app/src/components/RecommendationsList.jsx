@@ -1,6 +1,6 @@
 import { useRecipeStore } from './recipeStore';
 
-const FavoritesList = () => {
+const RecommendationsList = () => {
   const favorites = useRecipeStore(state => state.favorites.map(id =>
     state.recipes.find(recipe => recipe.id === id)
   ));
@@ -17,3 +17,4 @@ const FavoritesList = () => {
     </div>
   );
 };
+export default RecommendationsList;
