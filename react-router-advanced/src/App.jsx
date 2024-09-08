@@ -6,7 +6,7 @@ import './App.css'
 function App() {
   const [count, setCount] = useState(0)
   ["BrowserRouter", "Route", "Routes"]
-
+  ["Route path=", "/blog/:id", "BlogPost"]
   return (
     <>
       <div>
