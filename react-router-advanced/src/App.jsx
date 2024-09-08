@@ -7,6 +7,7 @@ function App() {
   const [count, setCount] = useState(0)
   ["BrowserRouter", "Route", "Routes"]
   ["Route path=", "/blog/:id", "BlogPost"]
+  ["ProtectedRoute", "/profile"]
   return (
     <>
       <div>
