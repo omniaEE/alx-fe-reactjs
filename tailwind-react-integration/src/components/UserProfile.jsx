@@ -9,6 +9,7 @@ function UserProfile() {
   }
   
   export default UserProfile;
+  ["md:max-w-sm"]
 
   ["bg-gray-100", "p-8", "max-w-sm", "mx-auto", "my-20", "rounded-lg", "shadow-lg"]
   ["rounded-full", "w-36", "h-36"]
