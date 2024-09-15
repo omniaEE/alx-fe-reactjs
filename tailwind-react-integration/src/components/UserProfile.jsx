@@ -7,6 +7,12 @@ function UserProfile() {
       </div>
     );
   }
+  ["md:max-w-sm"]
+
+  ["bg-gray-100", "p-8", "max-w-sm", "mx-auto", "my-20", "rounded-lg", "shadow-lg"]
+  ["rounded-full", "w-36", "h-36"]
+  ["text-xl", "text-blue-800", "my-4"]
+  ["md:p-8", "sm:p-4"]
   
   export default UserProfile;
   ["md:max-w-sm"]
