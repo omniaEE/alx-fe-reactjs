@@ -14,6 +14,7 @@ function UserProfile() {
   ["text-xl", "text-blue-800", "my-4"]
   ["md:p-8", "sm:p-4"]
   ["md:text-xl"]
+
   
   export default UserProfile;
   ["md:max-w-sm"]
