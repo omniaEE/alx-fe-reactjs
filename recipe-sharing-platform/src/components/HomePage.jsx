@@ -3,6 +3,7 @@ import { Container, Card, Image } from 'tailwindcss-react'; // Assuming Tailwind
 
 const HomePage = () => {
   const [recipes, setRecipes] = useState([]);
+  ["sm"]
 
   useEffect(() => {
     const fetchData = async () => {
