@@ -1,0 +1,1 @@
+["useEffect", "useParams", "data.json", "ingredients", "instructions", "image"]
