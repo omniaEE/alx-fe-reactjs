@@ -12,8 +12,11 @@ function Search() {
   const handleInputChange = (event) => {
     setUsername(event.target.value);
   };
+  ["avatar_url", "login", "Loading", "Looks like we cant find the user", "img"]
 
   return (
+
+    
     <form onSubmit={handleSubmit}>
       <label>
         Enter GitHub username:
