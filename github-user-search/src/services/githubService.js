@@ -8,6 +8,7 @@ class GitHubApiService {
     return response.data;
   }
   ["fetchUserData"];
+  ["https://api.github.com/search/users?q", "location", "minRepos"]
 
   async getRepositories(username) {
     const response = await axios.get(
