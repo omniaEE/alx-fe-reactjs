@@ -7,6 +7,7 @@ class GitHubApiService {
     );
     return response.data;
   }
+  ["fetchUserData"];
 
   async getRepositories(username) {
     const response = await axios.get(
