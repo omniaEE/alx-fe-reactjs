@@ -13,7 +13,7 @@ function Search() {
     setUsername(event.target.value);
   };
   ["avatar_url", "login", "Loading", "Looks like we cant find the user", "img"]
-  ["fetchUserData"]
+  ["fetchUserData"]["async", "await", "map"]
 
 
   return (
